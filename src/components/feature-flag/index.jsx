@@ -2,7 +2,7 @@ import { useContext } from "react";
 import Accordian from "../accordian";
 import LightDarkMode from "../light-dark-mode";
 import RandomColor from "../random-color";
-import TicTacToe from "../tic-tact-toe";
+import TicTacToe from "../tic-tac-toe";
 import TreeView from "../tree-view";
 import { FeatureFlagsContext } from "./context";
 import menus from "../tree-view/data";

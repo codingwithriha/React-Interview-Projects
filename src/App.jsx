@@ -26,66 +26,66 @@ function App() {
   return (
     <div className="App">
       {/* Accordian component */}
-      {/* <Accordian/> */}
+      <Accordian />
       {/* Random color component */}
-      {/* <RandomColor/> */}
+      <RandomColor />
 
       {/* Star rating component */}
-      {/* <StarRating noOfStars={10}/> */}
+      <StarRating noOfStars={10} />
 
       {/* Image slider component */}
-      {/* <ImageSlider
+      <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
-      /> */}
+      />
 
       {/* Load more products component */}
-      {/* <LoadMoreData/> */}
+      <LoadMoreData />
 
       {/* Tree view component/menu UI component / recursive navigation menu */}
-      {/* <TreeView menus={menus} /> */}
+      <TreeView menus={menus} />
 
       {/* QR code generator */}
-      {/* <QRCodeGenerator/> */}
+      <QRCodeGenerator />
 
       {/* light and dark theme switch */}
-      {/* <LightDarkMode/> */}
+      <LightDarkMode />
 
       {/* Scroll indicator component */}
-      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
 
       {/* Custom tabs component */}
-      {/* <TabTest /> */}
+      <TabTest />
 
       {/* Custom Modal Component */}
-      {/* <ModalTest/> */}
+      <ModalTest />
 
       {/* Github profile finder */}
-      {/* <GithubProfileFinder/> */}
+      <GithubProfileFinder />
 
       {/* Search Autocomplete */}
-      {/* <SearchAutocomplete/> */}
+      <SearchAutocomplete />
 
       {/* Tic tac toe */}
-      {/* <TicTacToe/> */}
+      <TicTacToe />
 
       {/* Feature Flag IMplementation */}
-      {/* <FeatureFlagGlobalState>
+      <FeatureFlagGlobalState>
         <FeatureFlags />
-      </FeatureFlagGlobalState> */}
+      </FeatureFlagGlobalState>
 
       {/* useFetch - Custom Hook Test*/}
-      {/* <UseFetchHookTest/> */}
+      <UseFetchHookTest />
 
       {/* Use Onclick Outside Hook Test */}
-      {/* <UseOnclickOutsideTest/> */}
+      <UseOnclickOutsideTest />
 
       {/* Use Window Resize Hook Test */}
-      {/* <UseWindowResizeTest/> */}
+      <UseWindowResizeTest />
 
       {/* Scroll to Top and Bottom */}
-      {/* <ScrollToTopAndBottom/> */}
+      <ScrollToTopAndBottom />
 
       {/* Scroll to a Particular Section */}
       <ScrollToSection />
